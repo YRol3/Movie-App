@@ -4,7 +4,7 @@
 ## GET 
 * `/globalSearch` 
 
-`/globalSearch?[request={search request}]&[filter={search filter}]&atDate={yyyy-mm-dd}`
+ `/globalSearch?[request={search request}]&[filter={search filter}]&atDate={yyyy-mm-dd}`
 
 will return all information about the movies and the events of the movies for the choose date
 
@@ -17,39 +17,39 @@ will return all information about the movies and the events of the movies for th
 `Response 200`
 ```json 
 {
-"films": 
-[
-{
-"attributeIds": 
-[
-"attribute"
-],
-"name": "name",
-"length": minutes length,
-"link": "limk",
-"weight": 0,
-"videoLink": "video link",
-"id": "id",
-"posterLink": "poster link",
-"releaseYear": "release year"
-}
-]
-"events": 
-[
-{
-"eventDateTime": "yyyy-mm-ddThh: mm: ss",
-"bookingLink": "bookinglink",
-"attributeIds": 
-[
-"attribute"
-],
-"cinemaId": "cinemaid",
-"filmId": "filmid",
-"id": "eventid",
-"businessDay": "yyyy-mm-dd",
-"soldOut": true
-}
-]
+    "films": 
+    [
+        {
+            "attributeIds": 
+            [
+                "attribute"
+            ],
+            "name": "name",
+            "length": minutes length,
+            "link": "limk",
+            "weight": 0,
+            "videoLink": "video link",
+            "id": "id",
+            "posterLink": "poster link",
+            "releaseYear": "release year"
+        }
+    ]
+    "events": 
+    [
+        {
+            "eventDateTime": "yyyy-mm-ddThh: mm: ss",
+            "bookingLink": "bookinglink",
+            "attributeIds": 
+            [
+                "attribute"
+            ],
+            "cinemaId": "cinemaid",
+            "filmId": "filmid",
+            "id": "eventid",
+            "businessDay": "yyyy-mm-dd",
+            "soldOut": true
+        }
+    ]
 }
 ```
 
