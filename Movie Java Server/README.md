@@ -25,7 +25,7 @@ will return all information about the movies and the events of the movies for th
                 "attribute"
             ],
             "name": "name",
-            "length": minutes length,
+            "length": minutes,
             "link": "limk",
             "weight": 0,
             "videoLink": "video link",
