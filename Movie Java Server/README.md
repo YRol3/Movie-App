@@ -8,10 +8,10 @@
 
 will return all information about the movies and the events of the movies for the choose date
 
-|Parameteer|Values|Optional
+|Parameter|Value|Optional
 |:--------:|:----:|:-------:
-|atDate|yyyy-mm-dd|false
-|request|films or events or both|false
+|atDate|date formated: yyyy-mm-dd|false
+|request|search key: films, events|false
 |filter|any key name as many as needed|true
 
 `Response 200`
