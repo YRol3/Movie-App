@@ -4,8 +4,6 @@
 ## GET 
 ### `/globalSearch` 
 
- `/globalSearch?[request={search request}]&[filter={search filter}]&atDate={yyyy-mm-dd}`
-
 will return all information about the movies and the events of the movies for the choose date
 
 |Parameter|Value|Optional
