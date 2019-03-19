@@ -2,7 +2,7 @@
 
 
 ## GET 
-### * `/globalSearch` 
+### `/globalSearch` 
 
  `/globalSearch?[request={search request}]&[filter={search filter}]&atDate={yyyy-mm-dd}`
 
