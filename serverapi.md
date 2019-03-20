@@ -52,7 +52,7 @@ will return all information about the movies and the events of the movies for th
 ```
 
 
-### `/othercmd` 
+### `/test1` 
 
 will return all information about the movies and the events of the movies for the choose date
 
@@ -104,7 +104,7 @@ will return all information about the movies and the events of the movies for th
 
 
 
-### `/self` 
+### `/test2` 
 
 will return all information about the movies and the events of the movies for the choose date
 
@@ -154,7 +154,7 @@ will return all information about the movies and the events of the movies for th
 ```
 
 
-### `/test` 
+### `/test3` 
 
 will return all information about the movies and the events of the movies for the choose date
 
