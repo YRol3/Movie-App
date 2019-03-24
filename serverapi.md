@@ -2,7 +2,7 @@
 
 
 ## GET 
-### * `/globalSearch` 
+### `/globalSearch` 
 
 
 will return all information about the movies and the events of the movies for the choose date
@@ -45,7 +45,7 @@ will return all information about the movies and the events of the movies for th
 }
 ```
 
-### * `/movieSearch` 
+### `/movieSearch` 
 
  
 
