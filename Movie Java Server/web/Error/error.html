@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>400 bad request</title>
+
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">
+
+        <!-- Custom stlylesheet -->
+        <style>
+            * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            #notfound {
+                position: relative;
+                height: 100vh;
+            }
+
+            #notfound .notfound {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
+            .notfound {
+                max-width: 520px;
+                width: 100%;
+                text-align: center;
+                line-height: 1.4;
+            }
+
+            .notfound .notfound-404 {
+                height: 190px;
+            }
+
+            .notfound .notfound-404 h1 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 146px;
+                font-weight: 700;
+                margin: 0px;
+                color: #232323;
+            }
+
+            .notfound .notfound-404 h1>span {
+                display: inline-block;
+                width: 120px;
+                height: 120px;
+                background-image: url('https://png2.kisspng.com/sh/0960c4dc8c0c0089764d9d63a5cd14dd/L0KzQYm3UsA0N6J3fZH0aYP2gLBuTfZia5Yyj9t9aD33dbL5k71wbl5vhAs2ZX3yerq0gCJ6cZ9sRd5qdXfrhLb5TgN1cZRwReVqZD3ofbFxib1xdpgyiNtsLUXkR4a7UfQybmM1ftY7Lkm6R4i8UcQ5OWY2T6g8NECzQYqCUcUveJ9s/kisspng-face-with-tears-of-joy-emoji-crying-laughter-stick-sad-emoji-png-pic-5a7541d1f20fd2.9777514815176340019915.png');
+                background-size: cover;
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.4);
+                z-index: -1;
+            }
+
+            .notfound h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                margin: 0;
+                text-transform: uppercase;
+                color: #232323;
+            }
+
+            .notfound p {
+                font-family: 'Montserrat', sans-serif;
+                color: #787878;
+                font-weight: 300;
+            }
+
+            .notfound a {
+                font-family: 'Montserrat', sans-serif;
+                display: inline-block;
+                padding: 12px 30px;
+                font-weight: 700;
+                background-color: #f99827;
+                color: #fff;
+                border-radius: 40px;
+                text-decoration: none;
+                -webkit-transition: 0.2s all;
+                transition: 0.2s all;
+            }
+
+            .notfound a:hover {
+                opacity: 0.8;
+            }
+
+            @media only screen and (max-width: 767px) {
+                .notfound .notfound-404 {
+                    height: 115px;
+                }
+                .notfound .notfound-404 h1 {
+                    font-size: 86px;
+                }
+                .notfound .notfound-404 h1>span {
+                    width: 86px;
+                    height: 86px;
+                }
+            }
+
+        </style>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body onload="runOnce()">
+        <script>
+            function runOnce(){
+                var req = new XMLHttpRequest();
+                req.open('GET', document.location, false);
+                req.send(null);
+                var headers = req.getResponseHeader("error").toLowerCase();
+                document.getElementById("error").innerHTML = "<p> error: "+headers
+                    +" </p>";
+            }
+        </script>
+    <div id="notfound">
+        <div class="notfound">
+            <div class="notfound-404">
+                <h1>4<span></span><span></span></h1>
+            </div>
+
+            <h2>Oops! Bad request</h2>
+            <div id="error"></div>
+            <a href="/">Check the documentation</a>
+        </div>
+    </div>
+
+    </body>
+
+</html>

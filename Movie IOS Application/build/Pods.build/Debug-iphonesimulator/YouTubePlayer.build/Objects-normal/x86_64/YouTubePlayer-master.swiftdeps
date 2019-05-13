@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "346cad1baf6db24f59ede1e5797f48cb"
+build_time: [1557482984, 409792000]
+inputs:
+  "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/Pods/YouTubePlayer/YouTubePlayer/YouTubePlayer/YouTubePlayer.swift": [1557482984, 0]

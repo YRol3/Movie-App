@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Debug-iphonesimulator/Pods_MyMovieApp.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-MyMovieApp-umbrella.h",
+          'external-contents': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/Pods/Target Support Files/Pods-MyMovieApp/Pods-MyMovieApp-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_MyMovieApp-Swift.h",
+          'external-contents': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Debug-iphonesimulator/Pods_MyMovieApp.framework/Headers/Pods_MyMovieApp-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Debug-iphonesimulator/Pods_MyMovieApp.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Pods.build/Debug-iphonesimulator/Pods-MyMovieApp.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Debug-iphonesimulator/YouTubePlayer/YouTubePlayer.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "YouTubePlayer-Swift.h",
+          'external-contents': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Debug-iphonesimulator/YouTubePlayer/YouTubePlayer.framework/Headers/YouTubePlayer-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YouTubePlayer-umbrella.h",
+          'external-contents': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/Pods/Target Support Files/YouTubePlayer/YouTubePlayer-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Debug-iphonesimulator/YouTubePlayer/YouTubePlayer.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yan/IdeaProjects/IOS Projects/MyMovieApp/build/Pods.build/Debug-iphonesimulator/YouTubePlayer.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

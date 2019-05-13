@@ -1,0 +1,24 @@
+PODS:
+  - CreditCardForm (0.1.8)
+  - Stripe (15.0.1)
+  - YouTubePlayer-Swift (1.0)
+
+DEPENDENCIES:
+  - CreditCardForm
+  - Stripe
+  - YouTubePlayer-Swift (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CreditCardForm
+    - Stripe
+    - YouTubePlayer-Swift
+
+SPEC CHECKSUMS:
+  CreditCardForm: 7e67bc394545eda9e502652af0858552b4931728
+  Stripe: 2c4d0a88817361a102886315ff452d90f65e898b
+  YouTubePlayer-Swift: ae82f4bcb504162a872b852596a9dc1fa3828c34
+
+PODFILE CHECKSUM: 592aef212c2a089200fd91a5ceaf6cda938ff7ae
+
+COCOAPODS: 1.5.2
