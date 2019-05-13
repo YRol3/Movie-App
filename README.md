@@ -1,4 +1,4 @@
 # Movie App
-test|test
-:--------------------------:--------------------------:
-![] (https://github.com/YRol3/Movie-App/blob/master/GitPictures/logo2.png?raw=true) | ![]  (https://github.com/YRol3/Movie-App/blob/master/GitPictures/logo1.png?raw=true)
+pic1|pic2
+:--------------------------:|:--------------------------:
+<img src="https://github.com/YRol3/Movie-App/blob/master/GitPictures/logo2.png?raw=true" /> | <img src="https://github.com/YRol3/Movie-App/blob/master/GitPictures/logo1.png?raw=true" />
